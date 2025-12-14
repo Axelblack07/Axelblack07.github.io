@@ -1,0 +1,404 @@
+
+body{
+  background-image: url(фонн.jpg);
+  min-height: 100vh;          
+  background-size: cover;    
+  background-repeat: no-repeat;
+  background-attachment: fixed; 
+  margin: 0;                  
+  padding: 0;                 
+  box-sizing: border-box;
+}
+
+
+.header{
+  display: flex;
+  justify-content: space-around;
+  position: fixed;
+  top: 0;               
+  left: 0;
+  width: 100%;         
+  background: #fff;     
+  z-index: 1000; 
+  
+
+}
+
+.logo{
+  text-align: center;
+  margin-left: 200px;
+}
+
+.logo h2{
+  font-size: larger;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+}
+
+.logo p{
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+
+.nav{
+  margin-top: 25px;
+}
+
+.nav a{
+padding-right: 30px;
+text-decoration: none;
+font-size: 18px;
+color: black;
+font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+.nav a:hover{
+  color: cyan;
+}
+
+.regis{
+  margin: 500px;
+  text-align: center;
+}
+
+.regis p{
+  font-size: 22px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  letter-spacing: 2px;
+  margin-bottom: 10px;
+}
+
+.regis h2{
+  font-size: 100px;
+  font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  letter-spacing: 2px;
+  margin: 1px 0 20px 0;
+}
+
+.regis button{
+  background-color: black;
+  color: white;
+  font-size: 18px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+}
+
+.regis button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+
+#about{
+  display: flex;
+  flex-wrap:nowrap;
+  background-color: white;
+  margin-top: 100px;            
+  left: 0;
+  width: 100%;             
+}
+
+#about h2{
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  margin-top: 120px;
+}
+
+.txt1{
+  font-size: 17px;
+  text-align: left;
+  margin-left: 450px;
+  margin-right: 100px;
+}
+
+#img_Maksim{
+  width: 900px;
+}
+
+.txt1 button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+  margin-top: 45px;
+}
+
+.txt1 button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+#txt2{
+  line-height: 1.5;
+}
+
+#txt3{
+  line-height: 1.5;
+}
+
+.helper{
+  background-image: url(фон\ хелпер.jpg);
+}
+
+.helper h2{
+  font-size: 40px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif; 
+  margin-left: 450px;
+
+}
+
+.cont{
+  display: grid;
+  grid-template-columns: repeat(3, 450px);
+  grid-template-rows: repeat(2, 280px);
+  justify-content: center;
+  gap: 30px;
+}
+
+
+#box1{
+  background-color: white;
+  padding: 10px 90px 30px 30px;
+
+}
+
+#box1 h3{
+  font-size: 25px;
+  font-style: inherit;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box1 button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+  margin-top: 25px;
+}
+
+#box1 button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+#box1 p{
+  font-size: 20px;
+}
+
+#box2{
+  background-color: white;
+  padding: 10px 90px 30px 30px;
+  
+}
+
+#box2 h3{
+  font-size: 25px;
+  font-style: inherit;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box2 button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+  margin-top: 25px;
+}
+
+#box2 button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+#box2 p{
+  font-size: 20px;
+}
+
+#box3{
+  background-color: white;
+  padding: 10px 90px 30px 30px;
+}
+
+#box3 h3{
+  font-size: 25px;
+  font-style: inherit;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box3 button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+  margin-top: 25px;
+}
+
+#box3 button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+#box3 p{
+  font-size: 20px;
+}
+
+#box4{
+  background-color: white;
+  padding: 10px 90px 30px 30px;
+  
+}
+
+#box4 h3{
+  font-size: 25px;
+  font-style: inherit;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box4 button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+  margin-top: 25px;
+}
+
+#box4 button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+#box4 p{
+  font-size: 20px;
+}
+
+#box5{
+  background-color: white;
+  padding: 10px 90px 30px 30px;
+  
+}
+
+#box5 h3{
+  font-size: 25px;
+  font-style: inherit;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box5 button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+  margin-top: 25px;
+}
+
+#box5 button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+#box5 p{
+  font-size: 20px;
+}
+
+#box6{
+  background-color: white;
+  padding: 10px 90px 30px 30px;
+  
+}
+
+#box6 h3{
+  font-size: 25px;
+  font-style: inherit;
+  font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+#box6 button{
+  background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+  margin-top: 25px;
+}
+
+#box6 button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+#box6 p{
+  font-size: 20px;
+}
+
+footer{
+  background-color: DarkTurquoise;
+  height: 50vh;
+  padding-top: 50px;
+}
+
+.fftr1{
+  display: flex;
+  flex-direction: row;
+  gap: 30px;
+  justify-content: center;
+}
+
+.soc{
+  font-size: 20px;
+  margin-right: 90px;
+}
+
+.soc h2{
+  margin-bottom: 50px;
+}
+
+.forms form{
+  gap: 30px;
+
+}
+
+.forms #name{
+  text-align: left;
+  padding: 10px 300px 5px 10px;
+  margin: 30px 5px 5px 5px;
+}
+
+.forms #mail{
+  text-align: left;
+  padding: 10px 300px 5px 10px;
+  margin: 5px;
+}
+
+.forms #number{
+  text-align: left;
+  padding: 10px 300px 5px 10px;
+  margin: 5px;
+}
+
+.forms #dop{
+  text-align: left;
+  padding: 10px 300px 100px 10px;
+  margin: 5px;
+}
+.forms button{
+background-color: black;
+  color: white;
+  font-size: 15px;
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  padding: 8px 23px;
+  margin-left: 356px;
+}
+
+.forms button:hover{
+  background-color: rgba(0, 0, 0, 0);
+  color: black;
+}
+
+.prava{
+  text-align: center;
+  margin: 30px 600px 0 0 ;
+}
